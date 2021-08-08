@@ -1,11 +1,45 @@
+.container {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
 .div-1 {
-    
+    background: hsl(31, 77%, 52%);
 }
 
 .div-2 {
-    
+    background: hsl(184, 100%, 22%);
 }
 
 .div-3 {
-    
+    background: hsl(179, 100%, 13%);
+}
+
+.button-1, .button-2, .button-3 {
+    background: white;
+    font-weight: bold;
+}
+
+.button-1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.button-2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.button-3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.headings {
+    color: white;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.content {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
 }
